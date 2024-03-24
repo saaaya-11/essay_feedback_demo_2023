@@ -1,0 +1,5 @@
+<div class="msg_incoming"><div class="msg_image"><img src="/static/img/loading_bot.gif" alt="sunil"></div><div class="msg_received"><div class="msg_received_withd"><p>あなたの小論文について、なんでも聞いてください！</p></div></div></div>
+<div class="msg_outgoing"><div class="msg_sent"><p>g</p></div></div>
+<div class="msg_outgoing"><div class="msg_sent"><p>e</p></div></div>
+<div class="msg_outgoing"><div class="msg_sent"><p>aaaaaaaaaaaaaaaaaaaaaa</p></div></div>
+<div class="msg_outgoing"><div class="msg_sent"><p>hi</p></div></div>

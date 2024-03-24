@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8">
+        <title>エッセイ添削システムbeta</title>
+    </head>
+    <body>
+        <h1>エッセイ添削システムbeta</h1>
+        <form action="" method="post">
+            {% csrf_token %}
+            <table>
+                {{essay.as_table}}
+                <tr><td colspan='2'><input type="submit" value="Submit"></td></tr>
+            </table>
+        </form>
+    </body>
+</html>

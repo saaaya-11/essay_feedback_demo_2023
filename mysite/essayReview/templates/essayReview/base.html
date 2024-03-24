@@ -1,0 +1,27 @@
+{% load static %}
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>小論文添削システム</title>
+        <link href="https://fonts.googleapis.com/css?family=M+PLUS+1p:400,500" rel="stylesheet">
+        <link href="{% static 'css/style.css' %}" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <h1 id="headerTitle"><a href={% url 'essayReview' %}>小論文添削システム with ChatGPT</a></h1>
+            </div>
+        </header>
+        <main>
+            <div class="container">
+                {% block content %}{% endblock %}
+            </div>
+            </section>
+        </main>
+        <footer>
+            <p>小論文添削システム with ChatGPT, ShimadaLab, 2023</p>
+        </footer>
+    </body>
+</html>
