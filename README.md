@@ -1,5 +1,5 @@
 # essay_feedback_demo_2023
-
+期間限定公開
 ## 使用技術
 * Python
 * Django
